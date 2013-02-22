@@ -1,0 +1,2 @@
+OPTIMIZE=-mtune=barcelona -msse4a
+

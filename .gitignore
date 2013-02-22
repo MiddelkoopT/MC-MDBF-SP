@@ -1,0 +1,14 @@
+/.settings/
+Makefile.local
+config.h
+config-experiment.h
+experiments.sqlite
+plot-*.pdf
+/build/
+/bin/
+/plots/
+/results/
+/proposal/
+/Release/
+/Debug/
+
