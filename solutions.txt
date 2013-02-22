@@ -13,5 +13,9 @@ pred: 0  5  7  7  1  1  9 10  5  6  5  6
 bf-dist-mc.cc
 (prej,Dj): (0,0) (5,11) (7,8) (7,17) (1,1) (1,10) (9,7) (10,16) (5,6) (6,15) (5,2) (6,11)
 
+SHA1 hash of problem-B
+6B8AAA3F50BB5C6295B59EE51DE4D555880E7628
+
 NY SHA1 of Dj ordered by node. 64bit LE int
 640A9C287D059B75CAB17839E3D85A8F44A8A5F6
+

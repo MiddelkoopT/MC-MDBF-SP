@@ -1,0 +1,26 @@
+c Problem-B: (Huston, Schlosser, and Shirr) INFORMS Journal on Computing, 19(4),2007
+c Encoded to gr format by Timothy Middelkoop
+c
+c - file format
+c c comment
+c p sp|spb $nodes $arcs $directional (spb for bi-direcional arcs)
+c a $src $dest $dist
+c
+p spb 12 16
+c
+a 1 5 1
+a 1 6 10
+a 2 5 10
+a 2 6 1
+a 3 7 1
+a 3 8 10
+a 4 7 10
+a 4 8 1
+a 5 9 5
+a 5 11 1
+a 6 10 5
+a 6 12 1
+a 7 9 1
+a 7 11 5
+a 8 10 1
+a 8 12 5

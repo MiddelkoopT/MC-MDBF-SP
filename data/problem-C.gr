@@ -1,0 +1,22 @@
+c BFMC for PS3 test problem (problem-C)
+c Timothy Middelkoop, Public Domain, 2008.
+c
+c -- file format
+c c comment
+c p sp nodes arcs
+c a src dest dist
+c
+p sp 5 12
+c
+a 1 2 1
+a 2 1 1
+a 1 5 2
+a 5 1 2
+a 2 3 1
+a 3 2 1
+a 5 3 2
+a 3 5 2
+a 5 4 4
+a 4 5 4
+a 3 4 3
+a 4 3 3

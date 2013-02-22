@@ -28,10 +28,16 @@ the parent directory. Major dependencies include PAPI and TBB (Thanks!).
 
 git clone https://github.com/mtim/Contrib ../contrib
 
+Import projects into eclipse and build.
 
-## Building ##
-
-* build libraries in contrib
+## Building (CLI) ##
+* build libraries in contrib (./clean.sh; ./papi.sh; ./tbb.sh )
 * config.h should be a symlink to a config in config/
-* run Make
+* copy/symlink data to parent directory
+* run make
+
+## Running ##
+* Generate binary data (cd data; ../scripts/problem-data.py problem-B.gr )
+* run: bin/bf-dist -p problem-B.gr.bin (solution hash: 6B8AAA3F50BB5C6295B59EE51DE4D555880E7628)
+* run: bin/bf-dist-tbb-task -p problem-B.gr.bin (solution hash: 6B8AAA3F50BB5C6295B59EE51DE4D555880E7628)
 
