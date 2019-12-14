@@ -26,7 +26,7 @@ The source contains the following work:
 The source requires the support of some contributed libraries found in
 the parent directory. Major dependencies include PAPI and TBB (Thanks!).
 
-git clone https://github.com/mtim/Contrib ../contrib
+git clone https://github.com/MiddelkoopT/MC-MDBF-SP-Contrib ../contrib
 
 Import projects into eclipse and build.
 
